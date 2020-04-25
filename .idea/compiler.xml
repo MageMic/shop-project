@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shop-api" />
+        <module name="shop-common" />
+        <module name="shop-coupon-service" />
+        <module name="shop-goods-service" />
+        <module name="shop-order-service" />
+        <module name="shop-order-web" />
+        <module name="shop-pay-service" />
+        <module name="shop-pay-web" />
+        <module name="shop-pojo" />
+        <module name="shop-user-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="shop-api" target="1.8" />
+      <module name="shop-common" target="1.8" />
+      <module name="shop-coupon-service" target="1.8" />
+      <module name="shop-goods-service" target="1.8" />
+      <module name="shop-order-service" target="1.8" />
+      <module name="shop-order-web" target="1.8" />
+      <module name="shop-parent" target="1.8" />
+      <module name="shop-pay-service" target="1.8" />
+      <module name="shop-pay-web" target="1.8" />
+      <module name="shop-pojo" target="1.8" />
+      <module name="shop-user-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
