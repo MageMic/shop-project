@@ -1,8 +1,9 @@
 package com.zju.wsh.pojo;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class TradeGoodsNumberLog extends TradeGoodsNumberLogKey {
+public class TradeGoodsNumberLog extends TradeGoodsNumberLogKey implements Serializable {
     private Integer goodsNumber;
 
     private Date logTime;

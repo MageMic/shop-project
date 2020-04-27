@@ -35,14 +35,14 @@
 			<property name="trimStrings" value="true" />
 		</javaModelGenerator>
         <!-- targetProject:mapper映射文件生成的位置 -->
-		<sqlMapGenerator targetPackage="com.zju.wsh.mapper"
+		<sqlMapGenerator targetPackage="com.zju.wsh.goods.mapper"
 			targetProject="E:\java\shop-project\shop\shop-parent\shop-pojo\src\main\resources">
 			<!-- enableSubPackages:是否让schema作为包的后缀 -->
 			<property name="enableSubPackages" value="false" />
 		</sqlMapGenerator>
 		<!-- targetPackage：mapper接口生成的位置 -->
 		<javaClientGenerator type="XMLMAPPER"
-			targetPackage="com.zju.wsh.mapper"
+			targetPackage="com.zju.wsh.goods.mapper"
 			targetProject="E:\java\shop-project\shop\shop-parent\shop-pojo\src\main\java">
 			<!-- enableSubPackages:是否让schema作为包的后缀 -->
 			<property name="enableSubPackages" value="false" />
